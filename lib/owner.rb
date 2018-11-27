@@ -33,16 +33,29 @@ class Owner
   def buy_fish(name)
     fish = Fish.new(name)
     @pets[:fishes] << fish
+<<<<<<< HEAD
+=======
+    fish
+>>>>>>> f0731a18dcaea54fddf868b1da758e7bcc89d270
   end
   
   def buy_cat(name)
     cat = Cat.new(name)
     @pets[:cats] << cat
+<<<<<<< HEAD
+=======
+    cat
+>>>>>>> f0731a18dcaea54fddf868b1da758e7bcc89d270
   end 
   
   def buy_dog(name)
     dog = Dog.new(name)
+<<<<<<< HEAD
     @pets[:dogs] << dog
+=======
+    @pets[:dogs] << dog 
+    dog
+>>>>>>> f0731a18dcaea54fddf868b1da758e7bcc89d270
   end 
   
   def say_species
@@ -74,9 +87,15 @@ class Owner
       }
       v.clear
     end
+<<<<<<< HEAD
   end
 
   def list_pets
     "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
+=======
+    binding.pry
+  end
+
+>>>>>>> f0731a18dcaea54fddf868b1da758e7bcc89d270
 end
